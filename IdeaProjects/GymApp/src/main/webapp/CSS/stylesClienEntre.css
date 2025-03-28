@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    background: linear-gradient(135deg, #47b58b, #a8933e);
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+h1 {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.btn-back {
+    text-decoration: none;
+    background-color: #ca4026; /* Rojo vibrante */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #ca4026; /* Rojo más oscuro en hover */
+}
+
+/* Estilos para las tarjetas */
+.custom-card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+/* Estilos para los formularios */
+.form-label {
+    font-weight: bold;
+    color: #fff;
+}
+
+.form-select {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff;
+}
+
+.form-select:focus {
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Botón estilizado */
+.btn-custom {
+    background: #ff5722;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background: #e64a19;
+    transform: scale(1.05);
+}
+
+/* Estilos para la tabla */
+.custom-table {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.custom-table th {
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+.custom-table tbody tr {
+    transition: 0.3s;
+}
+
+.custom-table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* Estilos para los mensajes */
+.alert-info {
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
